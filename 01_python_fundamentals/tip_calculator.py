@@ -1,12 +1,14 @@
 """
 Exercise: Number Guessing Game
 
-Concepts practiced:
-- control flow
-- while loops
-- conditionals
-- random numbers
+Description:
+A simple program that calculates the tip and total bill amount. 
 
+Concepts practiced:
+- user input
+- variables
+- arithmetic
+- formatted output
 """
 
 bill = float(input("Enter bill amount: "))
