@@ -5,3 +5,5 @@ print("Nice to meet you,", name)
 
 age = input("How old are you? ")
 print("You are", age, "years old.")
+
+print("Testing...")
