@@ -1,3 +1,14 @@
+"""
+Exercise: Number Guessing Game
+
+Concepts practiced:
+- control flow
+- while loops
+- conditionals
+- random numbers
+
+"""
+
 bill = float(input("Enter bill amount: "))
 tip_percent = float(input("Enter tip percentage: "))
 
