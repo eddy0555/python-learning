@@ -11,11 +11,15 @@ Concepts practiced:
 - formatted output
 """
 
+#ask user for the bill amount
 bill = float(input("Enter bill amount: "))
+#ask user for the tip percentage
 tip_percent = float(input("Enter tip percentage: "))
 
+#calculate tip and total amount with tip
 tip = bill * (tip_percent / 100)
 total = bill + tip
 
-print("Tip:", tip)
-print("Total:", total)
+#print tip and total
+print(f"Tip: ${tip:.2f}")
+print(f"Total: ${total:.2f}")
