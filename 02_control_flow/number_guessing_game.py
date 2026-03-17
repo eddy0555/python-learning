@@ -1,12 +1,14 @@
 import random
+
 #Creating Pseudo code
 
+secret_num = random.randint(1,100)
+print (secret_num)
+
+guess_num = None
+print (guess_num)
+
 """
-START
-
-Generate a random number between 1 and 100
-Store it as secret_number
-
 Set guess to None (or 0)
 
 Display message: "Guess the number between 1 and 100"
