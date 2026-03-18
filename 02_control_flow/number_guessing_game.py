@@ -1,15 +1,16 @@
 import random
 
-#Creating Pseudo code
-
+# Generate random number
 secret_num = random.randint(1,100)
-print (secret_num)
 
+# Initiate guess variable
 guess_num = None
-print (guess_num)
+
+#Prompt number guessing game question
+print ("Try to guess the secret number that is between 1 and 100!")
+
 
 """
-Set guess to None (or 0)
 
 Display message: "Guess the number between 1 and 100"
 
