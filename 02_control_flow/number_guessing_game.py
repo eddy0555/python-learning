@@ -12,17 +12,16 @@ print ("Try to guess the secret number that is between 1 and 100!")
 while guess_num != secret_num:
 
     guess_num = int(input("Enter your guess: "))
+
+    if guess_num < secret_num:
+        print ("Too Low bro")
+    
+    if guess_num > secret_num:
+        print ("Too high bro")
     
 print("Nice! Good Job Stupid")
 
 """
-
-WHILE guess is not equal to secret_number:
-
-    Ask user to enter a guess
-    Convert input to a number
-    Store it in guess
-
     IF guess is less than secret_number:
         Display "Too low"
 
